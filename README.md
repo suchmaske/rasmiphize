@@ -20,7 +20,7 @@ Since I want to maintain this *rasm* library, I have decided to publish a succes
 ## Install
 
 ```
-TBD
+composer require suchmaske/rasmiphize
 ```
 
 ## How to use
