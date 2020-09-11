@@ -7,7 +7,7 @@ class RasmiphizeTest extends TestCase
 {
     private $rasmiphize;
 
-    public function setUp(): void
+    public function setUp()
     {
         $replacementRules = new Rasmiphize\ReplacementRules();
         $this->rasmiphize = new Rasmiphize\Rasmiphize($replacementRules);

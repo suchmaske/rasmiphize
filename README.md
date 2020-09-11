@@ -38,7 +38,6 @@ $arabicString = 'الفَاتِحَة';
 $replacementRules = new ReplacementRules();
 $rasmiphize = new Rasmiphize($replacementRules);
 $rasmiphize->toRasm($arabicString); // الڡاٮحه
-
 ```
 
 ### Static
