@@ -48,5 +48,5 @@ use Rasmiphize\Rasmiphize;
 
 // Code
 $arabicString = 'الفَاتِحَة';
-Rasmiphize::rasmifize($arabicString); // الڡاٮحه
+Rasmiphize::rasmiphize($arabicString); // الڡاٮحه
 ```

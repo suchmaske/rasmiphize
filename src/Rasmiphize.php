@@ -32,7 +32,7 @@ class Rasmiphize
      * @param $arabicString
      * @return false|string|string[]|null
      */
-    public static function rasmifize($arabicString)
+    public static function rasmiphize($arabicString)
     {
         $replacementRules = new ReplacementRules();
         $rasmifize = new Rasmiphize($replacementRules);

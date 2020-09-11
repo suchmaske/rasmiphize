@@ -36,7 +36,7 @@ class RasmiphizeTest extends TestCase
             );
 
             $this->assertEquals(
-                trim(Rasmiphize\Rasmiphize::rasmifize($coordinate["original"])),
+                trim(Rasmiphize\Rasmiphize::rasmiphize($coordinate["original"])),
                 trim($coordinate["rasm"]),
                 "Failet at {$coordinate["sura"]}:{$coordinate["verse"]}:{$coordinate["word"]}"
             );
@@ -56,7 +56,7 @@ class RasmiphizeTest extends TestCase
     public function testRasmiphizeRegression($original, $rasm)
     {
         $this->assertEquals(
-            Rasmiphize\Rasmiphize::rasmifize($original),
+            Rasmiphize\Rasmiphize::rasmiphize($original),
             $rasm
         );
     }
