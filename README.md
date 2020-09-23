@@ -23,6 +23,10 @@ Since I want to maintain this *rasm* library, I have decided to publish a succes
 composer require suchmaske/rasmiphize
 ```
 
+## Try it
+
+You can test it here: [rasmifize demo](https://suchmaske.github.io/rasmifize/demo/)
+
 ## How to use
 
 ### OOP
