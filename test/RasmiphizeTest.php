@@ -64,7 +64,8 @@ class RasmiphizeTest extends TestCase
     public function regressionDataProvider()
     {
         return [
-            ["وَهَيِّئۡ", "وهىى"]
+            ["وَهَيِّئۡ", "وهىى"],
+            ['بِإِذۡنِیۖ وَتُبۡرِئُ ٱلۡأَكۡمَهَ', 'ٮادںى وٮٮرى الاکمه']
         ];
     }
 }

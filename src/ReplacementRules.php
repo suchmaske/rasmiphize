@@ -78,7 +78,7 @@ class ReplacementRules
             ["/ؤ/", "و"],
 
             // Replace arabic letter yeh (\u0626) at the end of a word with arabic letter alef maksura (\u0649)
-            ["/ئ$/", "ى"],
+            ["/ئ(?=\s|$)/", "ى"],
 
             // Replace arabic letter yeh with hamza above (\u0626) with arabic letter dotless beh (\u066E)
             ["/ئ/", "ٮ"],
